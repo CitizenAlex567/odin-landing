@@ -75,7 +75,7 @@ h2 {
    flex-direction: row;
    gap: 60px;
    justify-content: center;
-   flex-wrap: nowrap;
+   
 }
 
 .info {
@@ -102,32 +102,59 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(226, 224, 224);
     flex-direction: column;
-    padding: 30px;
-}
-
-.inspiring {
-    font-size: 50px;
-    color: antiquewhite;
     
 }
 
-.final {
-    height: 300px;
+.inspiring {
+    width: 600px;
+    font-size: 50px;
+    color: rgb(202, 142, 63);
 }
+
+.autor {
+    margin-left: 400px;
+}
+
+.final {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
 .calltoaction {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 800px;
     background-color: #3882f6;
     color: antiquewhite;
-    margin: 150px;
     padding: 20px;
     border-radius: 10px;
 }
 
+.ulttext, h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.boton2 {
+    height: 40px;
+    width: 100px;
+    background-color: #3882f6;
+    padding: 5px;
+    color: antiquewhite;
+    border-radius: 10px;
+    border-color:#ffffff;
+    font-size: 15px;
+}
+
 .textoaction {
-    
     display: flex;
     flex-direction: column;
 }
